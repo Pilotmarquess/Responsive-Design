@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'Red Rose';
+    font-size: 16px;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  #page-wrapper {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  
+  nav {
+    padding: 20px 0px 20px 0px;
+    margin: 0 auto; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    font-size: 30px;
+  }
+
+
+
+  
+  .flex-nav > li {
+    padding: 10px;
+    background-color: rgb(9, 128, 197);
+    margin: 10px;
+    list-style: none;
+    border-radius: 5px;
+  }
+  
+
+
+  .flex-nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+
+
+  .flex-nav li:hover {
+    background-color: green;
+  }
+  
+  
+  
+  
+  
+  .flex-gallery {
+      display: flex;
+      justify-content: space-between;
+      width: 80vw;
+      margin: auto;
+    }
+    
+  .flex-gallery > div {
+      font-size: 30px;
+    }
+
+
+  
+  .flex-gallery img {
+    width: 15vw;
+    height: 15vw;
+    object-fit: cover;
+    margin: 3vw;
+  }
+
+
+  
+  .flex-header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    background-image: url("https://picsum.photos/seed/picsum/500");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    }
+
+
+  
+    .flex-header > div {
+      width: 100%;
+      height: 50vh;
+      margin-top: 20px;
+      justify-content: center;
+      text-align: center;
+      font-size: 8rem;
+      color: white;
+      align-items: center;
+    }
+  
+
+
+    .flex-header p {
+      font-size: 6vw;
+    }
+    
+
+
+  
+    .flex-header button {
+      background-color: white;
+      padding: 3vw;
+      margin: 30px;
+      border-radius: 10px;
+    }
+
+
+  
+    .flex-header button:hover {
+      background-color: darkslateblue;
+      padding: 50px;
+      border-style: none;
+      color: white;
+      font-size: 20px;
+    }
+
+
+  
+    .flex-footer {
+      display: flex;
+      background-color: rgb(15, 82, 207);
+      justify-content: center;
+      width: 95vw;
+      margin: auto;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    }
+
+
+  
+    .flex-footer > button {
+      background-color: white;
+      padding: 20px;
+      margin: 30px;
+      border-radius: 10px;
+    }
